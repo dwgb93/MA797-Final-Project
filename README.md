@@ -17,3 +17,5 @@ This posed a unique opportunity to develop new algorithms to classify entire seq
 
 In summary, using these new metrics, we were able to increase classification accuracy from 64% to 80% on out-of-sample images using traditional transfer learning with VGG-16, image augmentation, and a few other tricks, like a custom training set. See the full paper for details!
 
+The complete cleaned dataset (B/W images removed, metadata borders trimmed, custom training set, see Section 3.1 for details) is available here: https://drive.google.com/file/d/1SqYQQZBN3QGsR3i0Zmk0MyVrrKy-JnzF/view?usp=sharing
+
