@@ -7,11 +7,11 @@ Check out the linked Google Colab Notebook or the final paper to get a better se
 
 Some details: 
 
-The original dataset was 10GB in size, consisting of 24000 high resolution labeled images of 20 different species of animals, captured at camera traps in the Netherlands and Panama (http://lila.science/datasets/missouricameratraps).
+The original dataset was 10GB in size, consisting of 25,000 high resolution labeled images of 20 different species of animals, captured at camera traps in the Netherlands and Panama (http://lila.science/datasets/missouricameratraps).
 
 The data was highly imbalanced and non-uniform, with a mix of different camera resolutions, black and white infrared images, full colour images, and high degrees of similarity between some of the different species.
 
-Uniquely, the images were presented in sequences of snapshots, taken a few seconds apart as the animal triggered a motion sensor. This posed a unique challence, since many labeled images contained an animal that had just walked out of frame. There was also a high degree of background similarity for images in the same sequence.
+Uniquely, the images were presented in sequences of snapshots, ranging from 3 images to 305, taken a few seconds apart as the animal triggered a motion sensor. This posed a unique challence, since many labeled images contained an animal that had just walked out of frame. There was also a high degree of background similarity for images in the same sequence.
 
 This posed a unique opportunity to develop new algorithms to classify entire sequences of images, based on either which image in a sequence was classified with the highest confidence, or a proprietary way of measuring how much confidence levels varied from the expected mean. See Section 4 of the MA_797_Project report for details.
 
